@@ -1,0 +1,2 @@
+# CPG-and-RNN-Control-Framework-for-Adaptive-Robotic-Locomotion-
+Develop and validate a CPG (based control architecture combining population and rate coded phase decoding with RNNs (Recurrent Neural Networks) based learning, and using PPO (Proximal Policy Optimization) Reinforcement Learning Algorithm to achieve adaptive gait generation, joint angle learning, and event driven locomotion for autonomous robots.
