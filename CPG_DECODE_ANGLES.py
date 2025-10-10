@@ -5,8 +5,8 @@ from scipy.integrate import solve_ivp
 Tf, Ts, Tus = 1, 50, 2500
 alpha = [-2, 2, -1.5, 1.5]
 delta = [0, 0, -1.5, -1.5]
-Iapp = -1.2
-g_inh = -0.5
+Iapp = -1.6
+g_inh = -0.3
 b, dsyn = 5, -1
 tmax = 20000
 ti = 15000
@@ -97,3 +97,4 @@ for idx, N in enumerate([3, 4, 5, 6]):
 
 plt.tight_layout()
 plt.show()
+
