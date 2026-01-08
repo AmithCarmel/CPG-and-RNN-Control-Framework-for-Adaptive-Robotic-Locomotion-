@@ -4,5 +4,5 @@ Develop and validate a CPG (based control architecture combining population and 
 2. Run Walk_crawl.py on your host machine with proper connected device mac address.
 3. Upload OpenCatESP32.ino firmware on the bittle Quadrapled bot.
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/272b95f3-00f9-4fc6-8a61-c6bd3b2dcc79" />
-<img width="989" height="490" alt="image" src="https://github.com/user-attachments/assets/1eb6f7b1-8e24-42cc-8527-434c3965abff" />
+
 
