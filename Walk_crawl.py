@@ -50,16 +50,16 @@ class CPG:
 
 class GaitController:
     def __init__(self):
-        # ---- Load RNN ----
+        # ----RNN ----
         with open("rnn_gait_decoder_arch.json", "r") as f:
             self.model = tf.keras.models.model_from_json(f.read())
         self.model.load_weights("rnn_gait_decoder.weights.h5")
-        print("✅ RNN loaded")
+        print(" RNN loaded")
 
         # ---- Bluetooth ----
         self.sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
         self.sock.connect((BLUETOOTH_MAC_ADDRESS, BLUETOOTH_PORT))
-        print("✅ Bluetooth connected")
+        print(" Bluetooth connected")
 
         # ---- CPG ----
         self.cpg = CPG()
